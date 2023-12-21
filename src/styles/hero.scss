@@ -1,0 +1,39 @@
+.hero-one{
+    width: 100%;
+}
+
+.hero-img{
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 1530px) {
+    
+    .hero-one {
+      width: 100%;
+      height: auto;
+    }
+
+    .hero-img{
+        width: 100%;
+        height: auto;
+    }
+  
+    
+  }
+
+  @media screen and (max-width: 500px) {
+    
+    .hero-one {
+      width: 100%;
+      height: auto;
+    }
+
+    .hero-img{
+        width: 100%;
+        height: auto;
+    }
+  
+    
+  }
