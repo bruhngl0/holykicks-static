@@ -55,14 +55,17 @@
     
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 450px) {
 
 
     .services-one {
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 900px;
         background-image: url("../../public/bg-three.png");
         background-size: cover;
+        display: flex;
+        align-items: center;
+         justify-content: center;
       }
 
     

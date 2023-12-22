@@ -30,7 +30,7 @@
     
     .about-one {
       width: 100%;
-      height: auto;
+      height: 800px;
       background-image: url("../../public/bg-one.png");
       background-size: cover;
       
@@ -55,12 +55,12 @@
     
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 450px) {
 
 
     .about-one {
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 900px;
         background-image: url("../../public/bg-one.png");
         background-size: cover;
       }
