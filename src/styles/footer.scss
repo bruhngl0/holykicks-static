@@ -1,0 +1,52 @@
+.footer-one{
+    width: 100%;
+    height: 900px;
+    background-image: url("../../public/bg-four.png");
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1540px) {
+    
+    .footer-one {
+      width: 100%;
+      height: auto;
+      background-image: url("../../public/bg-four.png");
+      background-size: cover;
+      
+    }
+
+    
+   
+
+    
+  
+    
+  }
+
+  @media screen and (max-width: 500px) {
+
+
+    .footer-one {
+        width: auto;
+        height: 250px;
+        background-image: url("../../public/bg-four.png");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+         justify-content: center;
+      }
+      
+    
+  }

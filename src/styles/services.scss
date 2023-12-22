@@ -59,15 +59,25 @@
 
 
     .services-one {
-        width: 500px;
-        height: 900px;
+        width: auto;
+        height: 950px;
         background-image: url("../../public/bg-three.png");
         background-size: cover;
+        background-position: center;
         display: flex;
         align-items: center;
          justify-content: center;
       }
+     
 
+      .services-container{
+
+        width: 100px;
+        height: 50px;
+        background-color: antiquewhite;
+       
+    
+    }
     
   
     
