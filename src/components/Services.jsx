@@ -16,23 +16,18 @@ const Services = () => {
          time
         </p>
       </div>
-
       <p className='services-text'>Our Services</p>
-      <div className='services-container'>
-        <p>
-         time
-        </p>
-      </div>
-
-      <p className='services-text'>Our Services</p>
-      <div className='services-container'>
-        <p>
-         time
-        </p>
-      </div>
-      <p>lol</p>
-      <p>lol</p>
-      
+    
+       <div className='services-img-container'> 
+       <div className='services-img-container-one'>
+        <img src= "holy two.png" />
+        <img src= "holy one.png" />
+       </div>
+       <div className='services-img-container-two'>
+       <img src= "holy four.png" />
+       </div>
+       </div>
+   
     </div>
   )
 }
