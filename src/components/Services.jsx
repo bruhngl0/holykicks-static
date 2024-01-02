@@ -6,14 +6,14 @@ const Services = () => {
       <p className='services-text'>who are we</p>
       <div className='services-container'>
         <p>
-         time
+        time is money and vice verca. you can buy time from money. thats it!
         </p>
       </div>
       <p className='services-text'>what we do?</p>
 
       <div className='services-container'>
         <p>
-         time
+         time is money and vice verca. you can buy time from money. thats it!
         </p>
       </div>
       <p className='services-text'>Our Services</p>

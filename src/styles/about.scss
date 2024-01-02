@@ -10,21 +10,6 @@
 }
 
 
-.about-text{
-    margin: 0;
-    font-size: 5rem;
-    color: white;
-}
-
-
-.about-container{
-
-    width: 800px;
-    height: 200px;
-    background-color: antiquewhite;
-    margin: 50px;
-    color: black;
-}
 
 
 @media screen and (max-width: 1540px) {
@@ -37,19 +22,7 @@
       
     }
 
-    .about-text{
-        margin: 0;
-        font-size: 2rem;
     
-    }
-
-    .about-container{
-
-        width: 200px;
-        height: 100px;
-        background-color: antiquewhite;
-        margin: 20px;
-    }
 
     
   
@@ -67,6 +40,11 @@
         background-position: center;
         overflow: hidden;
       }
+
+    .about-video{
+        width: 350px;
+        height: 400px;
+    }
 
     
   
