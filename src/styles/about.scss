@@ -44,14 +44,20 @@
     .about-video{
         width: 350px;
         height: 400px;
+        box-shadow:  rgb(0, 0, 0, 0.8); /* Adjust the values as needed */
+        z-index: 3; /* You can adjust the z-index based on your layout */
     }
 
     .about-image-container{
       width: 350px;
       height: 400px;
+      
 
       >img{
         width: 350px;
+        margin-top: 20px;
+        box-shadow: 0 2px 2px rgb(0, 0, 0, 0.8); /* Adjust the values as needed */
+        z-index: 3; /* You can adjust the z-index based on your layout */
       }
     }
 

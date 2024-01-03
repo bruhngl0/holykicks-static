@@ -15,7 +15,7 @@ const About = () => {
       <p className='services-text'>B4/After</p>
       
       <div className='about-image-container'>
-      <img src= "b4.png"/>
+      <img src= "collageone.png"/>
       </div>
        
     
