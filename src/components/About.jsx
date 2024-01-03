@@ -5,41 +5,23 @@ const About = () => {
     <div>
        <div className='about-one'>
        <video src= "kick.mp4" className='about-video' controls/>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
-       <div>lol</div>
+       <p className='services-text'>BOOK PICKUP</p>
+      <div className='services-container'>
+        <p>
+      
+        </p>
+      </div>
+
+      <p className='services-text'>B4/After</p>
+      
+      <div className='about-image-container'>
+      <img src= "b4.png"/>
+      </div>
+       
+    
+       
+     
+      
     </div>
     </div>
   )

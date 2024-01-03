@@ -6,25 +6,25 @@ const Services = () => {
       <p className='services-text'>who are we</p>
       <div className='services-container'>
         <p>
-        time is money and vice verca. you can buy time from money. thats it!
+        
         </p>
       </div>
       <p className='services-text'>what we do?</p>
 
       <div className='services-container'>
         <p>
-         time is money and vice verca. you can buy time from money. thats it!
+        
         </p>
       </div>
       <p className='services-text'>Our Services</p>
     
        <div className='services-img-container'> 
        <div className='services-img-container-one'>
-        <img src= "holy two.png" />
-        <img src= "holy one.png" />
+        <img src= "holy-blue-two.png" />
+        <img src= "holy-blue-three.png" />
        </div>
        <div className='services-img-container-two'>
-       <img src= "holy four.png" />
+       <img src= "holy-blue-one.png" />
        </div>
        </div>
    

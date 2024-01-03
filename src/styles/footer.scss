@@ -39,7 +39,7 @@
 
     .footer-one {
         width: auto;
-        height: 250px;
+        height: 450px;
         background-image: url("../../public/bg-four.png");
         background-size: cover;
         background-position: center;
@@ -47,6 +47,13 @@
         align-items: center;
          justify-content: center;
          overflow: hidden;
+
+
+
+         >img{
+          width:350px;
+          height: 200px;
+         }
       }
       
     
