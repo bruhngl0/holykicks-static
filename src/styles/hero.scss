@@ -7,6 +7,14 @@
     height: auto;
 }
 
+.whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  bottom: 70px; /* Adjust the distance from the bottom as needed */
+  right: 50px; /* Adjust the distance from the right as needed */
+  z-index: 999; /* Ensure the icon appears above other elements */
+}
 
 @media screen and (max-width: 1530px) {
     
