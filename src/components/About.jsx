@@ -8,7 +8,8 @@ const About = () => {
        <p className='services-text'>BOOK PICKUP</p>
       <div className='services-container'>
         <p>
-      
+         Conveniently send your shoes to us using any courier and we will take care of the rest:
+        
         </p>
       </div>
 
