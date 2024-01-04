@@ -12,7 +12,7 @@ const About = () => {
         </p>
       </div>
 
-      <p className='services-text'>B4/After</p>
+      <p className='services-text'>Before/After</p>
       
       <div className='about-image-container'>
       <img src= "collageone.png"/>

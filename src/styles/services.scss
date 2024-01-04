@@ -85,7 +85,7 @@
       .services-text{
         margin: 0;
         font-size: 3rem;
-        color: white;
+        color: rgb(255, 255, 255);
         margin-top: 2rem;
     }
 
@@ -94,13 +94,18 @@
         width: 350px;
         height: 200px;
         background-color: rgba(250, 235, 215, 0.7);
-        color: rgb(214, 14, 4);
+        color: rgb(97, 89, 89);
         font-family:monospace;
         font-size: larger;
         font-weight: 900;
         border-radius: 10px;
         box-shadow: 0 2px 2px rgb(0, 0, 0, 0.8); /* Adjust the values as needed */
         z-index: 3; /* You can adjust the z-index based on your layout */
+
+
+        >p{
+            padding-left: 10px;
+        }
        
     
     }
