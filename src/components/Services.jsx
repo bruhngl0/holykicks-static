@@ -6,7 +6,7 @@ const Services = () => {
       <p className='services-text'>who are we?</p>
       <div className='services-container'>
         <p>
-        We love kicks as much as you do! We're the pros who make even the dirtiest sneaks sparkle again. Think of us as a one stop solution for your kicks!
+        We love kicks as much as you do! We're the pros who make even the dirtiest sneakers sparkle again. Think of us as a one stop solution for your kicks!
         </p>
       </div>
       <p className='services-text'>what we do?</p>
