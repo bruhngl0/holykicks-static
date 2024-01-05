@@ -11,7 +11,7 @@ const Hero = () => {
 
   return (
     <div className='hero-one'>
-      <img src= "bg-two.png"  className='hero-img'/>
+     
       <div className="whatsapp-icon" onClick={openWhatsApp}>
         {/* Add your WhatsApp icon image or SVG here */}
         <img src="wa.png" alt="WhatsApp" />
