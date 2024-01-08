@@ -8,7 +8,7 @@ const About = () => {
        <video src= "kick.mp4" className='about-video' controls/>
        <p className='services-text'>BOOK PICKUP</p>
 
-            <a href= "https://play.google.com/store/apps/details?id=com.dunzo.user&hl=en_IN&gl=US&pli=1" target='_blank'>
+            <a href= "https://www.dunzo.com/bangalore" target='_blank'>
             <div className='about-container'>
                 <p>
                     Book Dunzo/Swiggy and drop your kicks at: <br /><br />
