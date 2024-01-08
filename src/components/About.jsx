@@ -6,11 +6,13 @@ const About = () => {
        <div className='about-one'>
        <video src= "kick.mp4" className='about-video' controls/>
        <p className='services-text'>BOOK PICKUP</p>
-      <div className='services-container'>
+       <div className='about-container'>
+      
         <p>
-         Conveniently send your shoes to us using any courier and we will take care of the rest:
-        
+        Book Dunzo/Swiggy drop your kicks at: <br></br> <br></br>25/26 BMT Complex, Malleshwaram Bangalore 560003 
         </p>
+        <img src= "g4.png" className='sw'/>
+       
       </div>
 
       <p className='services-text'>Before/After</p>

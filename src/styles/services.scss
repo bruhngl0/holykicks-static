@@ -180,6 +180,9 @@
         margin: 1rem;
 
 
+        
+
+
         >p{
             padding: 10px;
             display: flex;
@@ -187,12 +190,16 @@
             justify-content: center;
         }
        
+        >img{
+            width: 30px;
+            height: 30px;
+        }
     
     }
 
     .services-img-container{
      width: 350px;
-     height: 314px;    
+     height: 310px;    
      margin-top: 20px;
      margin-bottom: 2rem;
     }
