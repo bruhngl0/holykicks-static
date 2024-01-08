@@ -18,13 +18,27 @@
 
 @media screen and (max-width: 1540px) {
     
-    .footer-one {
-      width: 100%;
+  .footer-one {
+    width: 100%;
+    height: 1100px;
+    background-image: url("../../public/bg-four.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     overflow: hidden;
+
+
+
+     >img{
+      width:1200px;
       height: auto;
-      background-image: url("../../public/bg-four.png");
-      background-size: cover;
-      
-    }
+      margin-top: 5rem;
+      box-shadow: 0 2px 2px rgb(0, 0, 0, 0.8); /* Adjust the values as needed */
+      z-index: 3; /* You can adjust the z-index based on your layout */
+     }
+  }
 
     
    

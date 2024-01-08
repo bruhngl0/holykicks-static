@@ -1,6 +1,7 @@
 .hero-one{
-    width: 100%;
+   
     background-image: url("../../public/bg-two.png");
+   
 }
 
 .hero-img{
@@ -17,11 +18,11 @@
   z-index: 999; /* Ensure the icon appears above other elements */
 }
 
-@media screen and (max-width: 1530px) {
+@media screen and (max-width: 1540px) {
     
     .hero-one {
-      width: 100%;
-      height: auto;
+      width: auto;
+      height: 3300px;
       background-size: cover;
       background-position: center;
       display: flex;
@@ -31,10 +32,7 @@
        color: white;
     }
 
-    .hero-img{
-        width: 100%;
-        height: auto;
-    }
+    
   
     
   }
