@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   
-  const phoneNumber = "+918083333328"
+  const phoneNumber = "+917349700308"
 
   const openWhatsApp = ()=>{
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
