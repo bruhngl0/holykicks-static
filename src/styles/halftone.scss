@@ -1,0 +1,92 @@
+.halftone{
+        position: absolute;
+        height: 800px;
+        width: 800px;
+        opacity: 0.1;
+      }
+    
+.book-now{
+       position: absolute;
+       color: red;
+       border-radius: 20px;
+       top: 80%;
+}
+
+.cloud-one-blur{
+   position: absolute;
+   top: 10%;
+   left: 10%;
+}
+
+.cloud-two-blur{
+  position: absolute;
+  bottom:5%;
+  left: 70%;
+}
+
+.cloud-one-blur, .cloud-two-blur {
+    position: absolute;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .cloud-one-blur {
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .cloud-two-blur {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Define transitions for each click count */
+  .click-0 .cloud-one-blur {
+    transform: translate(-50%, -50%);
+  }
+  
+  .click-0 .cloud-two-blur {
+    transform: translate(-50%, -50%);
+  }
+  
+  .click-1 .cloud-one-blur {
+    transform: translate(-70%, -70%);
+  }
+  
+  .click-1 .cloud-two-blur {
+    transform: translate(-30%, -30%);
+  }
+  
+  .click-2 .cloud-one-blur {
+    transform: translate(-90%, -30%);
+  }
+  
+  .click-2 .cloud-two-blur {
+    transform: translate(-10%, -70%);
+  }
+  
+  .click-3 .cloud-one-blur {
+    transform: translate(-50%, -90%);
+  }
+  
+  .click-3 .cloud-two-blur {
+    transform: translate(-50%, -10%);
+  }
+  
+  .click-4 .cloud-one-blur {
+    transform: translate(-50%, -50%);
+  }
+  
+  .click-4 .cloud-two-blur {
+    transform: translate(-50%, -50%);
+  }
+
+  .other-element {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }

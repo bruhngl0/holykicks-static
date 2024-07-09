@@ -1,57 +1,35 @@
 .hero-one{
    
-    background-image: url("../../public/bg-two.png");
+    background-image: url("../../public/Rectangle.webp");
+    height: 952px;
+    width: 100%;
    
 }
 
-.hero-img{
+
+
+
+ 
+  .hero-one{
+    position: relative;
+    background-image: url("../../public/Rectangle.webp");
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-size: contain;
+    height: 840px;
     width: 100%;
-    height: auto;
-}
 
-.whatsapp-icon {
-  width: 20px;
-  height: 20px;
-  position: fixed;
-  bottom: 70px; /* Adjust the distance from the bottom as needed */
-  right: 50px; /* Adjust the distance from the right as needed */
-  z-index: 999; /* Ensure the icon appears above other elements */
-}
-
-@media screen and (max-width: 1540px) {
-    
-    .hero-one {
-      width: auto;
-      height: 3300px;
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-       justify-content: center;
-       overflow: hidden;
-       color: white;
-    }
-
-    
-  
     
   }
+    
+  
 
   @media screen and (max-width: 500px) {
     
-    .hero-one {
-      width: auto;
-      height: 970px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-    }
-
-    .hero-img{
-        width: 450px;
-        height: 1000px;
-    }
-  
     
   }
+
+
+  

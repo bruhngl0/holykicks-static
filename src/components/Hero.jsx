@@ -1,23 +1,37 @@
 import React from 'react'
+import { useState } from 'react'
+import Header from './Header'
+import Halftone from './Halftone'
+import Book from './Book'
+import BlurryCloud from './BlurryCloud'
+import OtherElement from './OtherElement'
+
+import '../styles/header.scss'
+import '../styles/hero.scss'
+import '../styles/halftone.scss'
+
+
 
 const Hero = () => {
-  
-  const phoneNumber = "+917349700308"
+  const [clickCount, setClickCount] = useState(0);
 
-  const openWhatsApp = ()=>{
-    const whatsappUrl = `https://wa.me/${phoneNumber}`;
-    window.open(whatsappUrl, '_blank');
-  }
+  const handleClick = () => {
+    setClickCount((prevCount) => (prevCount + 1) % 5);
+  };
 
   return (
-    <div className='hero-one'>
+  
+    <div className='hero-one' onClick={handleClick}>
+      <Header />
+      <Halftone />
+      <Book />
+      <BlurryCloud clickCount={clickCount} />
+      <OtherElement clickCount={clickCount} />
+
      
-      <div className="whatsapp-icon" onClick={openWhatsApp}>
-        {/* Add your WhatsApp icon image or SVG here */}
-        <img src="wa.png" alt="WhatsApp" />
-      </div>
     </div>
   )
 }
 
 export default Hero
+
