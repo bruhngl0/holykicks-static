@@ -10,7 +10,7 @@ const OtherElement = ({ clickCount }) => {
         case 3:
           return 'Group';
         default:
-          return 'Default Text';
+          return 'Basic';
       }
     };
   

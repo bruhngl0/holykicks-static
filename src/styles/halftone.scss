@@ -12,21 +12,11 @@
        top: 80%;
 }
 
-.cloud-one-blur{
-   position: absolute;
-   top: 10%;
-   left: 10%;
-}
-
-.cloud-two-blur{
-  position: absolute;
-  bottom:5%;
-  left: 70%;
-}
 
 .cloud-one-blur, .cloud-two-blur {
     position: absolute;
     transition: transform 1s ease-in-out;
+    z-index: 999;
   }
   
   .cloud-one-blur {
@@ -40,53 +30,63 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+
+
+  .clear-cloud-one, .clear-cloud-two {
+    position: absolute;
+    transition: transform 1s ease-in-out;
+    z-index: 899;
+  }
+  
+  .clear-cloud-one {
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .clear-cloud-two {
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
   
   /* Define transitions for each click count */
-  .click-0 .cloud-one-blur {
-    transform: translate(-50%, -50%);
-  }
   
-  .click-0 .cloud-two-blur {
-    transform: translate(-50%, -50%);
-  }
-  
-  .click-1 .cloud-one-blur {
-    transform: translate(-70%, -70%);
-  }
-  
-  .click-1 .cloud-two-blur {
-    transform: translate(-30%, -30%);
-  }
-  
-  .click-2 .cloud-one-blur {
-    transform: translate(-90%, -30%);
-  }
-  
-  .click-2 .cloud-two-blur {
-    transform: translate(-10%, -70%);
-  }
-  
-  .click-3 .cloud-one-blur {
-    transform: translate(-50%, -90%);
-  }
-  
-  .click-3 .cloud-two-blur {
-    transform: translate(-50%, -10%);
-  }
-  
-  .click-4 .cloud-one-blur {
-    transform: translate(-50%, -50%);
-  }
-  
-  .click-4 .cloud-two-blur {
-    transform: translate(-50%, -50%);
-  }
 
   .other-element {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 50%;
+    right: 50%;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ccc;
+    width: 500px;
+
+    >p{
+      font-size: 2rem;
+      
+    }
+  }
+
+
+  .shoes-element{
+    position: absolute;
+    z-index: 999;
+  }
+
+
+  .text-element {
+    position: absolute;
+    top: 60%;
+    right: 60%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 500px;
+
+    >p{
+      font-size: 2rem;
+      
+    }
   }

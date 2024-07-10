@@ -5,6 +5,9 @@ import Halftone from './Halftone'
 import Book from './Book'
 import BlurryCloud from './BlurryCloud'
 import OtherElement from './OtherElement'
+import Shoes from './Shoes'
+import ClearClouds from './ClearClouds'
+import TextElement from './TextElement'
 
 import '../styles/header.scss'
 import '../styles/hero.scss'
@@ -16,7 +19,7 @@ const Hero = () => {
   const [clickCount, setClickCount] = useState(0);
 
   const handleClick = () => {
-    setClickCount((prevCount) => (prevCount + 1) % 5);
+    setClickCount((prevCount) => (prevCount + 1) % 4);
   };
 
   return (
@@ -27,6 +30,10 @@ const Hero = () => {
       <Book />
       <BlurryCloud clickCount={clickCount} />
       <OtherElement clickCount={clickCount} />
+      <Shoes clickCount={clickCount}/>
+      <ClearClouds clickCount={clickCount}/>
+      <TextElement clickCount={clickCount} />
+
 
      
     </div>
