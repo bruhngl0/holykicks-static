@@ -1,8 +1,9 @@
 .hero-one{
    
     background-image: url("../../public/Rectangle.webp");
-    height: 840px;
+    height: 100vh;
     width: 100%;
+    overflow-y: hidden;
    
 }
 
@@ -17,8 +18,9 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    background-size: contain;
-    height: 830px;
+    background-size: cover;
+    background-position: center;
+    height: 840px;
     width: 100%;
 
     
