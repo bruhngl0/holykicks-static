@@ -19,7 +19,7 @@ const Hero = () => {
   const [clickCount, setClickCount] = useState(0);
 
   const handleClick = () => {
-    setClickCount((prevCount) => (prevCount + 1) % 4);
+    setClickCount((prevCount) => (prevCount + 1) % 3);
   };
 
   return (

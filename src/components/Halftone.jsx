@@ -6,4 +6,4 @@ const Halftone = () => {
   )
 }
 
-export default Halftone
+export default React.memo(Halftone)

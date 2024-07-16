@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'graffiti';
+  src: url('../public/BebasNeue-Regular.ttf') format('truetype');
+     
+
+  font-style: normal;
+  
+}
+
 .halftone{
         position: absolute;
         height: 800px;
@@ -7,27 +16,33 @@
     
 .book-now{
        position: absolute;
-       color: red;
+       color: white;
+       width: 6rem;
+       height: 2rem;
        border-radius: 20px;
+       font-size: 1.1rem;
+       font-style: graffiti;
        top: 80%;
+       background-color: rgba(22, 163, 249, 1);
 }
 
 
 .cloud-one-blur, .cloud-two-blur {
     position: absolute;
     transition: transform 1s ease-in-out;
+    width: 20rem;
     z-index: 999;
   }
   
   .cloud-one-blur {
-    top: 90%;
-    left: 50%;
+    top: 19%;
+    right: -0%;
     transform: translate(-50%, -50%);
   }
   
   .cloud-two-blur {
-    top: 50%;
-    left: 50%;
+    bottom: 3%;
+    left: 13%;
     transform: translate(-50%, -50%);
   }
 
@@ -36,19 +51,23 @@
   .clear-cloud-one, .clear-cloud-two {
     position: absolute;
     transition: transform 1s ease-in-out;
-    z-index: 899;
+    width: 22rem;
+    z-index: 299;
   }
   
   .clear-cloud-one {
-    top: 50%;
-    left: 90%;
+    top: 45%;
+    left: 38%;
     transform: translate(-50%, -50%);
+    z-index: 990;
   }
   
   .clear-cloud-two {
-    top: 20%;
-    left: 30%;
+    top: 50%;
+    right: 16%;
     transform: translate(-50%, -50%);
+    z-index: 990;
+ 
   }
   
   /* Define transitions for each click count */
@@ -56,37 +75,56 @@
 
   .other-element {
     position: absolute;
-    top: 50%;
-    right: 50%;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    width: 500px;
-
-    >p{
-      font-size: 2rem;
-      
-    }
+    top: -55%;
+   
+    font-size: 32rem;
+    color: rgba(22, 163, 249, 1);
+    z-index: 700;
+    background-color: rgb(1, 18, 12);
+    height: 50px;
+  
+    
   }
+
+
 
 
   .shoes-element{
     position: absolute;
     z-index: 999;
+    top:18%;
+
+
+    >img{
+      width: 58rem;
+    }
   }
 
 
   .text-element {
     position: absolute;
-    top: 60%;
-    right: 60%;
+    bottom: 18%;
+  
     padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    width: 500px;
+   
+   
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     >p{
-      font-size: 2rem;
-      
+      font-size: 3rem;
+      color: rgb(8, 76, 117);
     }
+  }
+
+  .fade-text {
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+  }
+  
+  .fade-text.fade-out {
+    opacity: 0;
   }

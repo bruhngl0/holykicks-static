@@ -7,13 +7,11 @@ const Shoes = ({ clickCount }) => {
   const getImage = (count) => {
     switch (count) {
       case 1:
-        return ShoeImage1;
-      case 2:
         return ShoeImage2;
-      case 3:
-        return ShoeImage3;
-      default:
+      case 2:
         return ShoeImage1;
+      default:
+        return ShoeImage3;
     }
   };
 

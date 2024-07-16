@@ -4,8 +4,17 @@
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    
-    width: 1303px;
+    color: rgba(22, 163, 249, 1);
+    width: 100%;
     height: 140px;
+
    
+}
+
+.header .left-head{
+    margin-left: 10rem;
+}
+
+.header .right-head{
+    margin-right: 10rem;
 }

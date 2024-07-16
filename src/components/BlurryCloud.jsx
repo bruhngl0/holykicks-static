@@ -14,16 +14,8 @@ const BlurryCloud = ({ clickCount }) => {
           cloudOne: { transform: 'translate(-90%, -30%)' },
           cloudTwo: { transform: 'translate(-10%, -70%)' },
         };
-      case 3:
-        return {
-          cloudOne: { transform: 'translate(-50%, -90%)' },
-          cloudTwo: { transform: 'translate(-50%, -10%)' },
-        };
-      case 4:
-        return {
-          cloudOne: { transform: 'translate(-50%, -50%)' },
-          cloudTwo: { transform: 'translate(-50%, -50%)' },
-        };
+    
+      
       default:
         return {
           cloudOne: { transform: 'translate(-50%, -50%)' },

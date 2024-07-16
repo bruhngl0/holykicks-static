@@ -4,21 +4,20 @@ const OtherElement = ({ clickCount }) => {
     const getText = (count) => {
       switch (count) {
         case 1:
-          return 'Basic';
+          return 'Deep';
         case 2:
-          return 'Need';
-        case 3:
-          return 'Group';
+          return 'group';
         default:
           return 'Basic';
       }
     };
   
     const text = getText(clickCount);
-  
+    const additionalClass = clickCount === 2 ? 'group-style' : '';
     return (
-      <div className="other-element">
-        <p>{text}</p>
+      <div className={`other-element ${additionalClass}`}>
+        <p >{text}</p>
+      
       </div>
     );
   };

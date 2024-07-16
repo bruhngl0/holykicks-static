@@ -6,23 +6,14 @@ const ClearClouds = ({ clickCount }) => {
       case 1:
         return {
           clearCloudOne: { transform: 'translate(-70%, -70%)' },
-          clearCloudTwo: { transform: 'translate(-30%, -30%)' },
+          clearCloudTwo: { transform: 'translate(-30%, -30%)'},
         };
       case 2:
         return {
           clearCloudOne: { transform: 'translate(-90%, -30%)' },
           clearCloudTwo: { transform: 'translate(-10%, -70%)' },
         };
-      case 3:
-        return {
-          clearCloudOne: { transform: 'translate(-50%, -90%)' },
-          clearCloudTwo: { transform: 'translate(-50%, -10%)' },
-        };
-      case 4:
-        return {
-          clearCloudOne: { transform: 'translate(-50%, -50%)' },
-          clearCloudTwo: { transform: 'translate(-10%, -50%)' },
-        };
+     
       default:
         return {
           clearCloudOne: { transform: 'translate(-50%, -50%)' },
