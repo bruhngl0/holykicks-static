@@ -4,10 +4,11 @@ const TextElement = ({ clickCount }) => {
     const getTextOne = (count) => {
       switch (count) {
         case 1:
-          return 'GROUP DEEP CLEANING: 4000/- INR';
+          return 'DEEP CLEANING SINGLE PAIR: 1099/- INR ';
+         
          
         case 2:
-          return 'DEEP CLEANING SINGLE PAIR: 1099/- INR ';
+          return 'GROUP DEEP CLEANING: 4000/- INR';
       
         default:
           return 'BASIC CLEANING SINGLE PAIR: 799/- INR';
