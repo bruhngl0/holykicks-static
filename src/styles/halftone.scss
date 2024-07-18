@@ -81,7 +81,7 @@
     font-size: 32rem;
     color: rgba(22, 163, 249, 1);
     z-index: 700;
-    background-color: rgb(1, 18, 12);
+    
     height: 50px;
   
     
@@ -121,6 +121,11 @@
     }
   }
 
+
+  .cleaning{
+    display: none;
+  }
+
   .fade-text {
     opacity: 1;
     transition: opacity 0.5s ease-out;
@@ -128,4 +133,76 @@
   
   .fade-text.fade-out {
     opacity: 0;
+  }
+
+
+  @media screen and (max-width: 500px) {
+    
+    .text-element{
+      >p{
+        font-size: 1.5rem;
+      }
+    }
+
+    .shoes-element{
+   
+      width: 100%;
+      top: 280px;
+      right: 13%;
+      overflow: hidden;
+      >img{
+        width: 130%;
+      }
+    }
+
+    .cloud-one-blur{
+      width: 10rem;
+      left: 10%;
+    }
+
+    .cloud-two-blur{
+      width: 10rem;
+      right:40%;
+    }
+
+    .clear-cloud-one{
+      width: 16rem;
+      right: 30%;
+    }
+
+    .clear-cloud-two{
+      width: 16rem;
+      left: 50%;
+    }
+
+    .other-element{
+      position: absolute;
+      width: 80%;
+      height: 50%;
+      font-size: 10rem;
+      top: 10%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      >p{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .halftone{
+      display: none;
+    }
+
+    .cleaning{
+      display: block;
+      position: absolute;
+      font-size: 6rem;
+      top: 42%;
+      color: rgba(22, 163, 249, 1);;
+    }
   }

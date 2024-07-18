@@ -8,6 +8,7 @@ import OtherElement from './OtherElement'
 import Shoes from './Shoes'
 import ClearClouds from './ClearClouds'
 import TextElement from './TextElement'
+import Cleaning from './Cleaning'
 
 import '../styles/header.scss'
 import '../styles/hero.scss'
@@ -28,6 +29,7 @@ const Hero = () => {
       <Header />
       <Halftone />
       <Book />
+      <Cleaning />
       <BlurryCloud clickCount={clickCount} />
       <OtherElement clickCount={clickCount} />
       <Shoes clickCount={clickCount}/>

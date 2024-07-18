@@ -29,7 +29,20 @@
   
 
   @media screen and (max-width: 500px) {
-    
+    .hero-one{
+      position: relative;
+      background-image: url("../../public/Rectangle.webp");
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+  
+      
+    }
     
   }
 
