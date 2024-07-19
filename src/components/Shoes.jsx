@@ -29,7 +29,7 @@ const fadeOut = keyframes`
 
   to{
      opacity: 0;
-     transform: translateY(-40%);
+     transform: translateY(-100%);
   }
 `;
 
