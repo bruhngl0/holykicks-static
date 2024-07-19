@@ -67,7 +67,7 @@ const Shoes = ({ clickCount }) => {
       const timeoutId = setTimeout(() => {
         setIsFading(false);
         setCurrentCount(clickCount);
-      }, 1000); // Match the duration of the fadeOut animation
+      }, 1200); // Match the duration of the fadeOut animation
 
       return () => clearTimeout(timeoutId);
     }
