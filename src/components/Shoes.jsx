@@ -11,7 +11,7 @@ const fadeIn = keyframes`
   }
   50% {
     opacity: 1;
-    transform: translateY(-100%); /* Adjust the value for how high it should go */
+    transform: translateY(-20%); /* Adjust the value for how high it should go */
   }
   70% {
     transform: translateY(10px); /* Adjust the value for the initial bounce down */
@@ -64,10 +64,12 @@ const Shoes = ({ clickCount }) => {
 
   useEffect(() => {
     if (clickCount !== currentCount) {
+      
       setIsFading(true);
       const timeoutId = setTimeout(() => {
-        setIsFading(false);
         setCurrentCount(clickCount);
+        setIsFading(false);
+        
       }, 1000); // Match the duration of the fadeOut animation
 
       return () => clearTimeout(timeoutId);
