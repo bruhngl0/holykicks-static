@@ -11,7 +11,7 @@ const fadeIn = keyframes`
   }
   50% {
     opacity: 1;
-    transform: translateY(-100%); /* Adjust the value for how high it should go */
+    transform: translateY(-50%); /* Adjust the value for how high it should go */
   }
   70% {
     transform: translateY(10px); /* Adjust the value for the initial bounce down */
@@ -38,7 +38,7 @@ const ShoeContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: ${({ isFading }) => (isFading ? fadeOut : fadeIn)} 1s forwards;
+  animation: ${({ isFading }) => (isFading ? fadeOut : fadeIn)} 3s forwards;
   z-index: 999;
  
   
@@ -68,7 +68,7 @@ const Shoes = ({ clickCount }) => {
       const timeoutId = setTimeout(() => {
         setIsFading(false);
         setCurrentCount(clickCount);
-      }, 2000); // Match the duration of the fadeOut animation
+      }, 1000); // Match the duration of the fadeOut animation
 
       return () => clearTimeout(timeoutId);
     }
