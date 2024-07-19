@@ -38,15 +38,16 @@ const ShoeContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: ${({ isFading }) => (isFading ? fadeOut : fadeIn)} 3s forwards;
+  animation: ${({ isFading }) => (isFading ? fadeOut : fadeIn)} 2s forwards;
   z-index: 999;
  
   
 `;
 
 const Shoes = ({ clickCount }) => {
-  const [isFading, setIsFading] = useState(false);
   const [currentCount, setCurrentCount] = useState(clickCount);
+  const [isFading, setIsFading] = useState(false);
+ 
 
   const getImage = (count) => {
     switch (count) {
@@ -67,7 +68,7 @@ const Shoes = ({ clickCount }) => {
       const timeoutId = setTimeout(() => {
         setIsFading(false);
         setCurrentCount(clickCount);
-      }, 1200); // Match the duration of the fadeOut animation
+      }, 2000); // Match the duration of the fadeOut animation
 
       return () => clearTimeout(timeoutId);
     }
