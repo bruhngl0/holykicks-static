@@ -6,7 +6,7 @@ import ShoeImage3 from '../../public/shoe3.png';
 
 const fadeIn = keyframes`
  0% {
-    opacity: 1;
+    opacity: 0;
     transform: translateY(100%);
   }
   50% {
