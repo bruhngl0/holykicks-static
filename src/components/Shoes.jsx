@@ -38,7 +38,7 @@ const ShoeContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: ${({ isFading }) => (isFading ? fadeOut : fadeIn)} 3s forwards;
+  animation: ${({ isFading }) => (isFading ? fadeOut : fadeIn)} 2s forwards;
   z-index: 999;
  
   
@@ -68,7 +68,7 @@ const Shoes = ({ clickCount }) => {
       const timeoutId = setTimeout(() => {
         setIsFading(false);
         setCurrentCount(clickCount);
-      }, 1000); // Match the duration of the fadeOut animation
+      }, 2000); // Match the duration of the fadeOut animation
 
       return () => clearTimeout(timeoutId);
     }
