@@ -25,7 +25,7 @@ const fadeOut = keyframes`
 
 const TextContainer = styled.div`
   animation: ${({ isFading }) => (isFading ? fadeOut : fadeIn)} 1s forwards;
-  height: 100vh;
+  
 `;
 
 const OtherElement = ({ clickCount }) => {

@@ -34,12 +34,14 @@ const fadeOut = keyframes`
 `;
 
 const ShoeContainer = styled.div`
-  height: 100vh;
+  
   display: flex;
   justify-content: center;
   align-items: center;
   animation: ${({ isFading }) => (isFading ? fadeOut : fadeIn)} 3s forwards;
   z-index: 999;
+ 
+  
 `;
 
 const Shoes = ({ clickCount }) => {
@@ -75,8 +77,8 @@ const Shoes = ({ clickCount }) => {
   console.log('imageSrc:', imageSrc);
 
   return (
-    <ShoeContainer isFading={isFading}>
-      <img src={imageSrc} alt={`Shoe ${currentCount}`} />
+    <ShoeContainer isFading={isFading} className='shoes-element'>
+      <img src={imageSrc}  alt={`Shoe ${currentCount}`} />
     </ShoeContainer>
   );
 };
