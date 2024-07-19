@@ -38,7 +38,7 @@ const ShoeContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: ${({ isFading }) => (isFading ? fadeOut : fadeIn)} 1s forwards;
+  animation: ${({ isFading }) => (isFading ? fadeOut : fadeIn)} 4s forwards;
   z-index: 999;
  
   
