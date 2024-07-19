@@ -9,11 +9,16 @@ const fadeIn = keyframes`
     opacity: 1;
     transform: translateY(100%);
   }
-  100% {
+  50% {
     opacity: 1;
-    transform: translateY(-10px); /* Adjust the value for how high it should go */
+    transform: translateY(-100%); /* Adjust the value for how high it should go */
   }
-
+  70% {
+    transform: translateY(10px); /* Adjust the value for the initial bounce down */
+  }
+  100% {
+    transform: translateY(0); /* Settle at the final position */
+  }
 `;
 
 const fadeOut = keyframes`
