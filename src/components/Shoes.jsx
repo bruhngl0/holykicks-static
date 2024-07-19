@@ -11,7 +11,7 @@ const fadeIn = keyframes`
   }
   50% {
     opacity: 1;
-    transform: translateY(-50%); /* Adjust the value for how high it should go */
+    transform: translateY(-100%); /* Adjust the value for how high it should go */
   }
   70% {
     transform: translateY(10px); /* Adjust the value for the initial bounce down */
