@@ -6,19 +6,14 @@ import ShoeImage3 from '../../public/shoe3.png';
 
 const fadeIn = keyframes`
  0% {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(100%);
   }
-  50% {
-    opacity: 1;
-    transform: translateY(-40px); /* Adjust the value for how high it should go */
-  }
-  70% {
-    transform: translateY(10px); /* Adjust the value for the initial bounce down */
-  }
   100% {
-    transform: translateY(0); /* Settle at the final position */
+    opacity: 1;
+    transform: translateY(-10px); /* Adjust the value for how high it should go */
   }
+
 `;
 
 const fadeOut = keyframes`
