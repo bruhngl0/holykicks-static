@@ -17,10 +17,10 @@
 .book-now{
        position: absolute;
        color: white;
-       width: 6rem;
-       height: 2rem;
+       width: 6.5rem;
+       height: 2.5rem;
        border-radius: 20px;
-       font-size: 1.1rem;
+       font-size: 1.5rem;
        font-style: graffiti;
        top: 80%;
        background-color: rgba(22, 163, 249, 1);
@@ -32,7 +32,7 @@
     position: absolute;
     transition: transform 1s ease-in-out;
     width: 20rem;
-    z-index: 999;
+    z-index: 9;
   }
   
   .cloud-one-blur {
@@ -53,21 +53,21 @@
     position: absolute;
     transition: transform 1s ease-in-out;
     width: 22rem;
-    z-index: 299;
+    z-index: 6;
   }
   
   .clear-cloud-one {
     top: 45%;
     left: 38%;
     transform: translate(-50%, -50%);
-    z-index: 990;
+    z-index: 9;
   }
   
   .clear-cloud-two {
     top: 50%;
     right: 16%;
     transform: translate(-50%, -50%);
-    z-index: 990;
+    z-index: 9;
  
   }
   
@@ -118,12 +118,14 @@
     >p{
       font-size: 3rem;
       color: rgb(8, 76, 117);
+      z-index: 10;
     }
   }
 
 
   .cleaning{
     display: none;
+    z-index: 200;
   }
 
   .fade-text {
@@ -136,6 +138,16 @@
   }
 
 
+  .tap-image{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+  }
+
+
+  .price{
+    font-size: 4rem;
+  }
   @media screen and (max-width: 500px) {
     
     .text-element{
@@ -147,7 +159,7 @@
     .shoes-element{
    
       width: 100%;
-      height: 200px;
+      height: 215px;
       top: 250px;
   
       overflow: hidden;
@@ -212,5 +224,9 @@
       font-size: 6rem;
       top: 42%;
       color: rgba(22, 163, 249, 1);;
+    }
+
+    .price{
+      font-size: 2rem;
     }
   }

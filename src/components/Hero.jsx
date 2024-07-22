@@ -9,6 +9,7 @@ import Shoes from './Shoes'
 import ClearClouds from './ClearClouds'
 import TextElement from './TextElement'
 import Cleaning from './Cleaning'
+import Tap from './Tap'
 
 import '../styles/header.scss'
 import '../styles/hero.scss'
@@ -30,11 +31,13 @@ const Hero = () => {
       <Halftone />
       <Book />
       <Cleaning />
+      <Tap />
       <BlurryCloud clickCount={clickCount} />
       <OtherElement clickCount={clickCount} />
       <Shoes clickCount={clickCount}/>
       <ClearClouds clickCount={clickCount}/>
       <TextElement clickCount={clickCount} />
+
 
 
      

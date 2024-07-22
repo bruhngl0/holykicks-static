@@ -2,7 +2,7 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     color: rgba(22, 163, 249, 1);
     width: 100%;
@@ -14,22 +14,23 @@
 }
 
 .header .left-head{
-    margin-left: 10rem;
+    margin-left: 0rem;
 }
 
 .header .right-head{
-    margin-right: 10rem;
+    margin-right: 0rem;
 }
 
 
 @media screen and (max-width: 500px){
     .header .left-head{
-        display: none;
+     margin-left: 0;
+     justify-content: flex-start;
     }
 
 
     .header .right-head{
-        display: none;
+        opacity: 0;
     }
 
 
@@ -37,7 +38,7 @@
         position: absolute;
         display: flex;
         flex-direction: row;
-        justify-content:center;
+        justify-content: space-around;
         align-items: center;
         color: rgba(22, 163, 249, 1);
         width: 100%;
@@ -45,8 +46,9 @@
          
 
         >img{
-            width: 71.84px;
-            height: 84px;
+            width: 121.84px;
+            margin-left: 35px;
+           
         }
        
     }
