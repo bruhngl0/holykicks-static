@@ -11,11 +11,11 @@ const Tap = () => {
 useEffect(()=>{
     setTimeout(() => {
     setVisible(false)    
-    }, 3500);
+    }, 10000);
 })
   return (
     <div className='tap-image'>
-      { visible == true ? <img src = "tap.png"/> : <></>}
+      { visible == true ? <img src = "tapone.png" className='image-size'/> : <></>}
     </div>
   )
 }

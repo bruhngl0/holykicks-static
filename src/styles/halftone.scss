@@ -24,7 +24,7 @@
        font-style: graffiti;
        top: 80%;
        background-color: rgba(22, 163, 249, 1);
-       z-index: 1001;
+       z-index: 9001;
 }
 
 
@@ -140,7 +140,7 @@
 
   .tap-image{
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     right: 10%;
   }
 
@@ -241,5 +241,18 @@
       top: 80%;
       background-color: rgba(22, 163, 249, 1);
       z-index: 1001;
+}
+
+
+.tap-image{
+  position: absolute;
+  bottom: 13%;
+  right: 10%;
+
+  
+
+  >img{
+    width: 35px;
+  }
 }
   }
