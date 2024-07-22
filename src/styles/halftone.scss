@@ -229,4 +229,17 @@
     .price{
       font-size: 2rem;
     }
+
+    .book-now{
+      position: absolute;
+      color: white;
+      width: 7.5rem;
+      height: 2.5rem;
+      border-radius: 20px;
+      font-size: 1.1rem;
+      font-style: graffiti;
+      top: 80%;
+      background-color: rgba(22, 163, 249, 1);
+      z-index: 1001;
+}
   }
