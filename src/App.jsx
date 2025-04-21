@@ -1,20 +1,19 @@
-import React from 'react'
-import Hero from './components/Hero'
+import React from "react";
+import Hero from "./components/Hero";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-
-import './styles/hero.scss'
-
-
-
-
+import Gallery from "./pages/Gallery";
+import "./styles/hero.scss";
 
 function App() {
-  return (  
-    <>     
-      <Hero />  
-    </>
-
-  )
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/gallery" element={<Gallery />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
