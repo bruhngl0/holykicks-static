@@ -1,0 +1,64 @@
+.m-gallery {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../public/bg2.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-position: center center;
+
+}
+
+.m-gallery-logo {
+  >img {
+    width: 100px;
+  }
+}
+
+.m-gallery-pic {
+  height: 350px;
+  width: 350px;
+
+
+}
+
+.m-gallery-head1 {
+  font-size: 64px;
+  color: #16A3F9;
+}
+
+.m-gallery-head2 {
+  font-size: 36px;
+  color: #0A4D75;
+}
+
+.m-gallery-head3 {
+  >p {
+    font-size: 24px;
+    color: #0A4D75;
+  }
+}
+
+.m-gallery-btn {
+  >button {
+    color: white;
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-style: graffiti;
+    background-color: rgba(22, 163, 249, 1);
+    margin-bottom: 40px;
+
+  }
+}
+
+.m-gallery-cara {
+  overflow-x: hidden;
+  background-color: #D9D9D9;
+  width: 100vw;
+  height: 100px;
+  margin-top: 20px;
+}
