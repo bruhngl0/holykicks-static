@@ -42,7 +42,7 @@ const ShoeCarousel = () => {
               height: "auto",
               marginRight: "0px",
               objectFit: "cover",
-              marginBottom: "40px",
+              marginBottom: "00px",
             }}
           />
         ))}
