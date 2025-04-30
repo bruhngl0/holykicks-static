@@ -14,9 +14,7 @@ const GalleryMobile = () => {
       <div className="m-gallery-pic">
         <ImageComparison beforeSrc="cleanj11.png" afterSrc="dirtyj11.png" />
       </div>
-      <div className="m-gallery-cara">
-        <ShoeCarousel />
-      </div>
+      <div className="m-gallery-cara"></div>
       <div className="m-gallery-head3">
         <p>HOLY SH*T, THOSE LOOK CLEAN-WANNA TRY</p>
       </div>

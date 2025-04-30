@@ -2,16 +2,18 @@
   width: 100vw;
   height: 100vh;
   background-image: url("../../public/bg2.png");
-  background-size: cover;
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   background-position: center center;
 
 }
 
 .m-gallery-logo {
+
+
   >img {
     width: 100px;
   }
@@ -20,6 +22,8 @@
 .m-gallery-pic {
   height: 350px;
   width: 350px;
+  position: relative;
+
 
 
 }

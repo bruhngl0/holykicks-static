@@ -2,7 +2,7 @@
   --widget-width: 100%;
   --slider-thumb-position: 100%;
 
-  position: relative;
+  position: absolute;
   width: var(--widget-width);
   height: 100%;
   margin: auto;
@@ -35,12 +35,13 @@
 
   .before-image {
     border-right: 3px solid skyblue;
-    width: 100%;
-    background-color: transparent;
+    width: 350px;
+    height: 350px;
   }
 
   .after-image {
-    width: 100%;
+    width: 350px;
+    height: 350px;
     background-color: transparent;
   }
 
