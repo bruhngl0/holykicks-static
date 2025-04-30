@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 
-const shoes = ["slide1.png", "slide2.png", "slide2.png"];
+const shoes = ["slide1.png", "slide2.png", "slide4.png"];
 
 const ShoeCarousel = () => {
   const containerRef = useRef(null);
