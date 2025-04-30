@@ -6,9 +6,6 @@ import Book from "./Book";
 const GalleryMobile = () => {
   return (
     <div className="m-gallery">
-      <div className="m-gallery-logo">
-        <img src="logo.png" className="m-gallery-logo-img" />
-      </div>
       <div className="m-gallery-head1">GALLERY</div>
       <div className="m-gallery-head2">BASIC PAIR CLEANING</div>
       <div className="m-gallery-pic">
