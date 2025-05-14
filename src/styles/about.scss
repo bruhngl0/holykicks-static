@@ -1,0 +1,224 @@
+.about-main {
+  background-image: url("../../public/bgAbout.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.about-logo {
+  >img {}
+}
+
+.about-shoe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  height: 50vh;
+  width: 50vw;
+}
+
+.about-shoe-text {
+  position: absolute;
+
+  >p {
+    font-size: 15rem;
+    color: #16A3F9;
+    margin: 0 auto;
+  }
+}
+
+.about-shoe-img {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  top: 20%;
+  left: 30%;
+
+  >img {
+    width: 20rem;
+  }
+}
+
+.about-clouds {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  z-index: 3;
+  top: 38%;
+}
+
+
+.about-cloudOne {
+  position: absolute;
+
+  >img {
+
+    margin-left: 25rem;
+
+  }
+
+}
+
+.about-cloudTwo {
+  position: absolute;
+
+  >img {
+
+    margin-left: 10rem;
+
+  }
+
+}
+
+.about-cloudThree {
+  position: absolute;
+
+  >img {}
+
+}
+
+.about-description {
+  width: 70vw;
+
+  >p {
+    color: #0A4D75;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//MOBILE-PERF-SLOT
+
+
+
+@media screen and (max-width: 500px) {
+  .about-main {
+    background-image: url("../../public/bgAbout.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .about-logo {
+    >img {}
+  }
+
+  .about-shoe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    height: 50vh;
+    width: 50vw;
+  }
+
+  .about-shoe-text {
+    position: absolute;
+    top: 10%;
+
+    >p {
+      font-size: 9rem;
+      color: #16A3F9;
+      margin: 0 auto;
+    }
+  }
+
+  .about-shoe-img {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: 20%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >img {
+      width: 13rem;
+    }
+  }
+
+  .about-clouds {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    z-index: 130;
+    top: 35%;
+    width: 90vw;
+    height: 80%;
+    margin: 0;
+  }
+
+
+  .about-cloudOne {
+    position: absolute;
+    z-index: 99;
+    bottom: 140px;
+
+    >img {
+      width: 12rem;
+      margin-left: 10rem;
+
+    }
+
+  }
+
+  .about-cloudTwo {
+    position: absolute;
+
+    >img {
+      width: 15rem;
+      margin-left: 5rem;
+
+    }
+
+  }
+
+  .about-cloudThree {
+    position: absolute;
+
+    >img {
+      width: 13rem;
+      margin-right: 2rem;
+
+    }
+
+  }
+
+  .about-description {
+    width: 70vw;
+    position: absolute;
+    bottom: 15%;
+
+    >p {
+      color: #0A4D75;
+      font-size: 16px;
+      font-weight: 100;
+      text-align: center;
+    }
+  }
+}

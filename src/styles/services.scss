@@ -1,0 +1,117 @@
+.services-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../public/bg2.png");
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+
+.services-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+
+  >p {
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #0A4D75;
+    padding-bottom: 1rem;
+  }
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+}
+
+.services-content-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 50%;
+
+  >p {
+
+    font-size: 6rem;
+    margin: 0 auto;
+    z-index: 3;
+    color: #16a3f9;
+
+
+  }
+}
+
+
+.services-content-shoe {
+  position: absolute;
+  height: 40%;
+  z-index: 4;
+
+  >img {
+    height: 100%;
+  }
+}
+
+
+.services-content-clouds {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -20%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.services-cloud-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 10%;
+  z-index: 5;
+
+  >img {
+    width: 90%;
+  }
+}
+
+.services-cloud-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 50%;
+  z-index: 6;
+
+  >img {
+    width: 90%;
+  }
+}
+
+.services-cloud-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  >img {
+    width: 20%;
+  }
+}

@@ -1,269 +1,274 @@
 @font-face {
   font-family: 'graffiti';
   src: url('../public/BebasNeue-Regular.ttf') format('truetype');
-     
+
 
   font-style: normal;
-  
+
 }
 
-.halftone{
-        position: absolute;
-        height: 700px;
-        width: 900px;
-        opacity: 0.1;
-        top: 5rem;
-      }
-    
-.book-now{
-       position: absolute;
-       color: white;
-       width: 6.5rem;
-       height: 2.5rem;
-       border-radius: 20px;
-       font-size: 1.5rem;
-       font-style: graffiti;
-       top: 90%;
-       background-color: rgba(22, 163, 249, 1);
-       z-index: 900;
+.halftone {
+  position: absolute;
+  height: 700px;
+  width: 900px;
+  opacity: 0.1;
+  top: 5rem;
+}
+
+.book-now {
+  position: absolute;
+  color: white;
+  width: 6.5rem;
+  height: 2.5rem;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-style: graffiti;
+  top: 90%;
+  background-color: rgba(22, 163, 249, 1);
+  z-index: 900;
 }
 
 
-.cloud-one-blur, .cloud-two-blur {
-    position: absolute;
-    transition: transform 1s ease-in-out;
-    width: 20rem;
-    z-index: 9;
+.cloud-one-blur,
+.cloud-two-blur {
+  position: absolute;
+  transition: transform 1s ease-in-out;
+  width: 20rem;
+  z-index: 9;
+}
+
+.cloud-one-blur {
+  top: 19%;
+  right: -0%;
+  transform: translate(-50%, -50%);
+}
+
+.cloud-two-blur {
+  bottom: 3%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.clear-cloud-one,
+.clear-cloud-two {
+  position: absolute;
+  transition: transform 1s ease-in-out;
+  width: 22rem;
+  z-index: 6;
+}
+
+.clear-cloud-one {
+  top: 45%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+
+.clear-cloud-two {
+  top: 50%;
+  right: 16%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+
+}
+
+/* Define transitions for each click count */
+
+
+.other-element {
+  position: absolute;
+  top: -46%;
+
+
+  font-size: 32rem;
+  color: rgba(22, 163, 249, 1);
+  z-index: 700;
+
+  height: 50px;
+
+
+}
+
+
+
+
+.shoes-element {
+  position: absolute;
+  z-index: 999;
+  top: 20%;
+
+
+  >img {
+    width: 58rem;
   }
-  
-  .cloud-one-blur {
-    top: 19%;
-    right: -0%;
-    transform: translate(-50%, -50%);
+}
+
+
+.text-element {
+  position: absolute;
+  bottom: 8%;
+
+  padding: 10px;
+
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  >p {
+    font-size: 3rem;
+    color: rgb(8, 76, 117);
+    z-index: 10;
   }
-  
-  .cloud-two-blur {
-    bottom: 3%;
-    left: 13%;
-    transform: translate(-50%, -50%);
+}
+
+
+.cleaning {
+  display: none;
+  z-index: 200;
+}
+
+.fade-text {
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+
+.fade-text.fade-out {
+  opacity: 0;
+}
+
+
+.tap-image {
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+
+  >img {
+    opacity: 0.5;
+    rotate: -25deg;
+    height: 7rem;
   }
+}
 
 
+.price {
+  font-size: 4rem;
+}
 
-  .clear-cloud-one, .clear-cloud-two {
-    position: absolute;
-    transition: transform 1s ease-in-out;
-    width: 22rem;
-    z-index: 6;
-  }
-  
-  .clear-cloud-one {
-    top: 45%;
-    left: 38%;
-    transform: translate(-50%, -50%);
-    z-index: 9;
-  }
-  
-  .clear-cloud-two {
-    top: 50%;
-    right: 16%;
-    transform: translate(-50%, -50%);
-    z-index: 9;
- 
-  }
-  
-  /* Define transitions for each click count */
-  
-
-  .other-element {
-    position: absolute;
-    top: -46%;
-  
-   
-    font-size: 32rem;
-    color: rgba(22, 163, 249, 1);
-    z-index: 700;
-    
-    height: 50px;
-  
-    
-  }
-
-
-
-
-  .shoes-element{
-    position: absolute;
-    z-index: 999;
-    top: 20%;
-  
-
-    >img{
-      width: 58rem;
-    }
-  }
-
+@media screen and (max-width: 500px) {
 
   .text-element {
-    position: absolute;
-    bottom: 8%;
-  
-    padding: 10px;
-   
-   
-   
+    >p {
+      font-size: 1.5rem;
+    }
+  }
+
+  .shoes-element {
+
+    width: 100%;
+    height: 215px;
+    top: 250px;
+
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 
-    >p{
-      font-size: 3rem;
-      color: rgb(8, 76, 117);
-      z-index: 10;
-    }
-  }
-
-
-  .cleaning{
-    display: none;
-    z-index: 200;
-  }
-
-  .fade-text {
-    opacity: 1;
-    transition: opacity 0.5s ease-out;
-  }
-  
-  .fade-text.fade-out {
-    opacity: 0;
-  }
-
-
-  .tap-image{
-    position: absolute;
-    bottom: 15%;
-    right: 10%;
-
-    >img{
-      opacity: 0.5;
-      rotate:-25deg;
-      height: 7rem;
-    }
-  }
-
-
-  .price{
-    font-size: 4rem;
-  }
-  @media screen and (max-width: 500px) {
-    
-    .text-element{
-      >p{
-        font-size: 1.5rem;
-      }
-    }
-
-    .shoes-element{
-   
-      width: 100%;
-      height: 215px;
-      top: 250px;
-  
-      overflow: hidden;
+    >img {
       display: flex;
       align-items: center;
       justify-content: center;
-      >img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 550px;
-        
-      }
-    }
+      width: 550px;
 
-    .cloud-one-blur{
-      width: 10rem;
-      left: 70%;
     }
+  }
 
-    .cloud-two-blur{
-      width: 10rem;
-      right:40%;
-    }
+  .cloud-one-blur {
+    width: 10rem;
+    left: 70%;
+  }
 
-    .clear-cloud-one{
-      width: 16rem;
-      right: 30%;
-    }
+  .cloud-two-blur {
+    width: 10rem;
+    right: 40%;
+  }
 
-    .clear-cloud-two{
-      width: 16rem;
-      left: 50%;
-    }
+  .clear-cloud-one {
+    width: 16rem;
+    right: 30%;
+  }
 
-    .other-element{
-      position: absolute;
-      width: 80%;
-      height: 50%;
-      font-size: 10rem;
-      top: 10%;
+  .clear-cloud-two {
+    width: 16rem;
+    left: 50%;
+  }
+
+  .other-element {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    font-size: 10rem;
+    top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    >p {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-
-      >p{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-      }
     }
+  }
 
-    .halftone{
-      display: none;
+  .halftone {
+    display: none;
+  }
+
+  .cleaning {
+    display: block;
+    position: absolute;
+    font-size: 6rem;
+    top: 42%;
+    color: rgba(22, 163, 249, 1);
+    ;
+  }
+
+  .price {
+    font-size: 2rem;
+  }
+
+  .book-now {
+    position: absolute;
+    color: white;
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-style: graffiti;
+    top: 75%;
+    background-color: rgba(22, 163, 249, 1);
+    z-index: 1001;
+  }
+
+
+  .tap-image {
+    position: absolute;
+    bottom: 13%;
+    right: 10%;
+
+
+
+    >img {
+      width: 35px;
+      height: 100%;
+      rotate: -20deg;
+
     }
-
-    .cleaning{
-      display: block;
-      position: absolute;
-      font-size: 6rem;
-      top: 42%;
-      color: rgba(22, 163, 249, 1);;
-    }
-
-    .price{
-      font-size: 2rem;
-    }
-
-    .book-now{
-      position: absolute;
-      color: white;
-      width: 7.5rem;
-      height: 2.5rem;
-      border-radius: 20px;
-      font-size: 1.1rem;
-      font-style: graffiti;
-      top: 80%;
-      background-color: rgba(22, 163, 249, 1);
-      z-index: 1001;
-}
-
-
-.tap-image{
-  position: absolute;
-  bottom: 13%;
-  right: 10%;
-
-  
-
-  >img{
-    width: 35px;
-    height: 100%;
-    rotate: -20deg;
-    
   }
 }
-  }
