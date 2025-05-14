@@ -1,6 +1,5 @@
 import "../styles/services.scss";
-
-const Services = () => {
+const Service = () => {
   return (
     <div className="services-main">
       <div className="services-logo">
@@ -36,4 +35,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Service;
