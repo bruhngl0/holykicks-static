@@ -19,8 +19,7 @@
   align-items: center;
   justify-content: start;
   position: relative;
-  height: 50vh;
-  width: 50vw;
+  width: 100%;
 }
 
 .about-shoe-text {
@@ -30,6 +29,7 @@
     font-size: 15rem;
     color: #16A3F9;
     margin: 0 auto;
+
   }
 }
 
@@ -114,12 +114,13 @@
   .about-main {
     background-image: url("../../public/bgAbout.png");
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    overflow: hidden;
   }
 
   .about-logo {
@@ -212,7 +213,7 @@
   .about-description {
     width: 70vw;
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
 
     >p {
       color: #0A4D75;
