@@ -1,21 +1,19 @@
-import React from 'react'
-import { useState } from 'react'
-import Header from './Header'
-import Halftone from './Halftone'
-import Book from './Book'
-import BlurryCloud from './BlurryCloud'
-import OtherElement from './OtherElement'
-import Shoes from './Shoes'
-import ClearClouds from './ClearClouds'
-import TextElement from './TextElement'
-import Cleaning from './Cleaning'
-import Tap from './Tap'
+import React from "react";
+import { useState } from "react";
+import Header from "./Header";
+import Halftone from "./Halftone";
+import Book from "./Book";
+import BlurryCloud from "./BlurryCloud";
+import OtherElement from "./OtherElement";
+import Shoes from "./Shoes";
+import ClearClouds from "./ClearClouds";
+import TextElement from "./TextElement";
+import Cleaning from "./Cleaning";
+import Tap from "./Tap";
 
-import '../styles/header.scss'
-import '../styles/hero.scss'
-import '../styles/halftone.scss'
-
-
+import "../styles/header.scss";
+import "../styles/hero.scss";
+import "../styles/halftone.scss";
 
 const Hero = () => {
   const [clickCount, setClickCount] = useState(0);
@@ -25,25 +23,21 @@ const Hero = () => {
   };
 
   return (
-  
-    <div className='hero-one' onClick={handleClick}>
+    <div className="hero-one" onClick={handleClick}>
       <Header />
       <Halftone />
-      <Book />
+      <div className="book">
+        <Book />
+      </div>
       <Cleaning />
       <Tap />
       <BlurryCloud clickCount={clickCount} />
       <OtherElement clickCount={clickCount} />
-      <Shoes clickCount={clickCount}/>
-      <ClearClouds clickCount={clickCount}/>
+      <Shoes clickCount={clickCount} />
+      <ClearClouds clickCount={clickCount} />
       <TextElement clickCount={clickCount} />
-
-
-
-     
     </div>
-  )
-}
+  );
+};
 
-export default Hero
-
+export default Hero;

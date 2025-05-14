@@ -44,4 +44,17 @@
 
   }
 
+  .book {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: red;
+    margin-top: 1rem;
+    background-color: red;
+    bottom: 10%;
+  }
+
 }
