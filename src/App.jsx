@@ -5,8 +5,8 @@ import Gallery from "./pages/Gallery";
 import "./styles/hero.scss";
 import CurtainEffect from "./components/CurtainEffect";
 import About from "./pages/about";
-import Services from "./components/services";
-import Contact from "./components/contact";
+import Services from "./components/Services";
+import Contact from "./components/Contact";
 
 function App() {
   return (
